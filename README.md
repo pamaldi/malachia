@@ -1,8 +1,71 @@
-# malachia
+# Malachia
+
+Malachia is a Java Quarkus langchain4j project focused on implementing agentic application defining graph.
+
+
+## Malachia
+
+Malachia is a fictional character in Umberto Eco's novel The Name of the Rose. He is the abbey's librarian and the only one with access 
+to the labyrinthine library, holding the secrets of its layout and organization.
+He is portrayed as suspicious of outsiders and fiercely protective of the library's contents.
+
+## Table of Contents
+
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Building and Running](#building-and-running)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Project Structure
+
+
+
+## Technologies Used
+
+- Java
+- Quarkus
+- Langchaing4j
+- Maven
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Java 21 or higher
+- Maven 3.6.3 or higher
+
+
+
+## Contributing
+
+We welcome contributions! Please follow these steps to contribute:
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+Feel free to reach out for any questions or support regarding the ADSO project. Enjoy experimenting with LLM agents
+using Quarkus and Langchaing4j!
+
+
+
+
+## Malachia and quarkus.
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
+
+
 
 ## Running the application in dev mode
 

@@ -29,12 +29,14 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.concurrent.ThreadLocalRandom;
 
-public final class MavenWrapperDownloader {
+public final class MavenWrapperDownloader
+{
     private static final String WRAPPER_VERSION = "3.3.2";
 
     private static final boolean VERBOSE = Boolean.parseBoolean(System.getenv("MVNW_VERBOSE"));
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         log("Apache Maven Wrapper Downloader " + WRAPPER_VERSION);
 
         if (args.length != 2) {
@@ -59,14 +61,17 @@ public final class MavenWrapperDownloader {
     }
 
     private static void downloadFileFromURL(URL wrapperUrl, Path wrapperJarPath)
-            throws IOException {
+            throws IOException
+    {
         log(" - Downloading to: " + wrapperJarPath);
         if (System.getenv("MVNW_USERNAME") != null && System.getenv("MVNW_PASSWORD") != null) {
             final String username = System.getenv("MVNW_USERNAME");
             final char[] password = System.getenv("MVNW_PASSWORD").toCharArray();
-            Authenticator.setDefault(new Authenticator() {
+            Authenticator.setDefault(new Authenticator()
+            {
                 @Override
-                protected PasswordAuthentication getPasswordAuthentication() {
+                protected PasswordAuthentication getPasswordAuthentication()
+                {
                     return new PasswordAuthentication(username, password);
                 }
             });
@@ -84,7 +89,8 @@ public final class MavenWrapperDownloader {
         log(" - Downloader complete");
     }
 
-    private static void log(String msg) {
+    private static void log(String msg)
+    {
         if (VERBOSE) {
             System.out.println(msg);
         }
