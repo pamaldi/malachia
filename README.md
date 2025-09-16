@@ -53,7 +53,7 @@ Create a new Pull Request.
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-Feel free to reach out for any questions or support regarding the ADSO project. Enjoy experimenting with LLM agents
+Feel free to reach out for any questions or support regarding the Malachia project. Enjoy experimenting with LLM agents
 using Quarkus and Langchaing4j!
 
 
